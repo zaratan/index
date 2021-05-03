@@ -21,36 +21,45 @@ const Project = ({ project }: { project: ProjectType }) => {
           <dt className="sr-only">{t('project.techs')}</dt>
           <dd className="space-x-1">
             {(project.techs || []).map((tech) => (
-              <TechBadge>{tech}</TechBadge>
+              <TechBadge key={tech}>{tech}</TechBadge>
             ))}
           </dd>
         </dl>
       </div>
-      <div>
-        <div className="-mt-px flex divide-x divide-gray-200">
-          <div className="w-0 flex-1 flex">
-            <a
-              href={`${project.url}`}
-              className="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500"
-            >
-              <LinkIcon className="w-6 h-6 text-gray-400" aria-hidden="true" />
-              <span className="ml-3">{t('project.url')}</span>
-            </a>
-          </div>
-          <div className="-ml-px w-0 flex-1 flex">
-            <a
-              href={`${project.repo}`}
-              className="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500"
-            >
-              <GithubIcon
-                className="w-6 h-6 text-gray-400"
-                aria-hidden="true"
-              />
-              <span className="ml-3">{t('project.repo')}</span>
-            </a>
+      {project.url || project.repo ? (
+        <div>
+          <div className="-mt-px flex divide-x divide-gray-200">
+            {project.url ? (
+              <div className="w-0 flex-1 flex">
+                <a
+                  href={`${project.url}`}
+                  className="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500"
+                >
+                  <LinkIcon
+                    className="w-6 h-6 text-gray-400"
+                    aria-hidden="true"
+                  />
+                  <span className="ml-3">{t('project.url')}</span>
+                </a>
+              </div>
+            ) : null}
+            {project.repo ? (
+              <div className="-ml-px w-0 flex-1 flex">
+                <a
+                  href={`${project.repo}`}
+                  className="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500"
+                >
+                  <GithubIcon
+                    className="w-6 h-6 text-gray-400"
+                    aria-hidden="true"
+                  />
+                  <span className="ml-3">{t('project.repo')}</span>
+                </a>
+              </div>
+            ) : null}
           </div>
         </div>
-      </div>
+      ) : null}
     </li>
   );
 };

@@ -5,5 +5,58 @@
     "url": "https://www.zaratan.fr",
     "repo": "https://github.com/zaratan/zarablog-next",
     "techs": ["NextJS", "TypeScript", "Scss"]
+  },
+  {
+    "title": "WOD: Vampire's powers",
+    "description": "A better display for World of Darkness Vampire disciplines in french.",
+    "url": "https://vampire.zaratan.fr",
+    "repo": "https://github.com/zaratan/vampire",
+    "techs": ["Gastby", "StyledComponents"]
+  },
+  {
+    "title": "WOD: Character sheets",
+    "description": "A usable character sheet for WoD in french.",
+    "url": "https://characters.zaratan.fr",
+    "repo": "https://github.com/zaratan/characters",
+    "techs": ["NextJS", "TypeScript", "StyledComponents"]
+  },
+  {
+    "title": "RPG Dices",
+    "description": "A dummy website where you can see dice stats and install Slack and Discord bots for rolling dices.",
+    "url": "https://dices.zaratan.fr",
+    "repo": "https://github.com/zaratan/dices",
+    "techs": ["NextJS", "TypeScript"]
+  },
+  {
+    "title": "Password Game",
+    "description": "A game about creating a valid password.",
+    "url": "https://password.zaratan.fr",
+    "repo": "https://github.com/zaratan/password-game",
+    "techs": ["NextJS", "TailwindCSS", "TypeScript"]
+  },
+  {
+    "title": "DevOops",
+    "description": "A script manager for all those scripts scatered in your computer.",
+    "repo": "https://github.com/zaratan/dev_oops",
+    "techs": ["Ruby"]
+  },
+  {
+    "title": "Rspec In Context",
+    "description": "An other way to share context and code between RSpec tests.",
+    "repo": "https://github.com/zaratan/rspec_in_context",
+    "techs": ["Ruby", "RSpec"]
+  },
+  {
+    "title": "SmashUp helper",
+    "description": "A simple project for randomizing your faction pic in SmashUp.",
+    "repo": "https://github.com/zaratan/smashup_helper",
+    "url": "https://smashup.zaratan.fr",
+    "techs": ["TypeScript", "TailwindCSS", "NextJS"]
+  },
+  {
+    "title": "Shotgun: Active Shotgun",
+    "description": "Hackathon: Transforming a Shotgun site in a DB with ActiveRecord Like queries.",
+    "repo": "https://github.com/zaratan/active_shotgun",
+    "techs": ["Ruby"]
   }
 ]
