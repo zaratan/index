@@ -1,5 +1,11 @@
 {
   "header": {
-    "title": "Zaratan's projects index"
+    "title": "Zaratan's projects index",
+    "description": "A comprehensive and kind of searchable index of my projects."
+  },
+  "footer": {
+    "made_with": "Made with",
+    "by": "by",
+    "offer_tea": "Buy me a tea"
   }
 }

@@ -1,5 +1,11 @@
 {
   "header": {
-    "title": "Index des projets de Zaratan"
+    "title": "Index des projets de Zaratan",
+    "description": "Un index comprehensible et filtrable de mes différents projets."
+  },
+  "footer": {
+    "made_with": "Fait avec du",
+    "by": "par",
+    "offer_tea": "Offrez moi un thé"
   }
 }
