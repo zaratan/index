@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Mon blog",
+    "description": "Mon blog personnel où je parle quasiment que de tech",
+    "url": "https://www.zaratan.fr",
+    "repo": "https://github.com/zaratan/zarablog-next",
+    "tech": ["NextJS", "TypeScript", "Scss"]
+  }
+]
