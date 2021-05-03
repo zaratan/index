@@ -7,5 +7,12 @@
     "made_with": "Made with",
     "by": "by",
     "offer_tea": "Buy me a tea"
+  },
+  "project": {
+    "title": "Title",
+    "description": "Description",
+    "url": "Site",
+    "repo": "Code",
+    "techs": "Technologies"
   }
 }

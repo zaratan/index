@@ -3,8 +3,10 @@ import Head from 'next/head';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/dist/client/router';
 import Link from 'next/link';
+import ProjectsList from './ProjectsList';
+import { ProjectsType } from '../types/ProjectType';
 
-const MainPage = () => {
+const MainPage = ({ projects }: { projects: ProjectsType }) => {
   const { t } = useTranslation('common');
   const { locale } = useRouter();
   return (
@@ -37,11 +39,9 @@ const MainPage = () => {
 
       <main className="-mt-32 flex-grow">
         <div className="max-w-7xl mx-auto pb-12 px-4 sm:px-6 lg:px-8">
-          {/* Replace with your content */}
           <div className="bg-white rounded-lg shadow px-5 py-6 sm:px-6">
-            <div className="border-4 border-dashed border-gray-200 rounded-lg h-96" />
+            <ProjectsList projects={projects} />
           </div>
-          {/* /End replace */}
         </div>
       </main>
 

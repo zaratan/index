@@ -4,6 +4,6 @@
     "description": "My personnal blog mostly in french where I post mostly about tech",
     "url": "https://www.zaratan.fr",
     "repo": "https://github.com/zaratan/zarablog-next",
-    "tech": ["NextJS", "TypeScript", "Scss"]
+    "techs": ["NextJS", "TypeScript", "Scss"]
   }
 ]
