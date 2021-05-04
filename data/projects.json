@@ -1,7 +1,7 @@
 [
   {
     "title": "My blog",
-    "description": "My personnal blog mostly in french where I post mostly about tech",
+    "description": "My personnal blog mostly in french where I post mostly about tech.",
     "url": "https://www.zaratan.fr",
     "repo": "https://github.com/zaratan/zarablog-next",
     "techs": ["NextJS", "TypeScript", "Scss"]

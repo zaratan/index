@@ -1,35 +1,35 @@
 [
   {
     "title": "Mon blog",
-    "description": "Mon blog personnel où je parle quasiment que de tech",
+    "description": "Mon blog personnel où je parle quasiment que de tech.",
     "url": "https://www.zaratan.fr",
     "repo": "https://github.com/zaratan/zarablog-next",
     "techs": ["NextJS", "TypeScript", "Scss"]
   },
   {
-    "title": "WOD: Pouvoirs vampiriques",
-    "description": "Une meilleur vision pour les disciplines vampiriques dans World of Darkness.",
+    "title": "WOD : Pouvoirs vampiriques",
+    "description": "Une meilleure vision pour les disciplines vampiriques dans World of Darkness.",
     "url": "https://vampire.zaratan.fr",
     "repo": "https://github.com/zaratan/vampire",
     "techs": ["Gastby", "StyledComponents"]
   },
   {
-    "title": "WOD: Feuilles de personnages",
-    "description": "Des feuilles de personnages utilisables en jeu pour WOD",
+    "title": "WOD : Feuilles de personnages",
+    "description": "Des feuilles de personnages utilisables en jeu pour WOD.",
     "url": "https://characters.zaratan.fr",
     "repo": "https://github.com/zaratan/characters",
     "techs": ["NextJS", "TypeScript", "StyledComponents"]
   },
   {
     "title": "Dés de JdR",
-    "description": "Un site web très simple où l'on peut voir des statistiques de lancés de dés et installer un bot Slack ou Discord bots lancant des dés de WoD.",
+    "description": "Un site web très simple où l'on peut voir des statistiques de lancers de dés et installer un bot Slack ou Discord bots lancant des dés de WoD.",
     "url": "https://dices.zaratan.fr",
     "repo": "https://github.com/zaratan/dices",
     "techs": ["NextJS", "TypeScript"]
   },
   {
     "title": "Jeu de mot de passe",
-    "description": "A jeu où l'on essaye de construire un mot de passe valide.",
+    "description": "Un jeu où l'on essaye de construire un mot de passe valide.",
     "url": "https://password.zaratan.fr",
     "repo": "https://github.com/zaratan/password-game",
     "techs": ["NextJS", "TailwindCSS", "TypeScript"]
@@ -41,7 +41,7 @@
     "techs": ["Ruby"]
   },
   {
-    "title": "Rspec In Context",
+    "title": "RSpec In Context",
     "description": "Une autre façon de partager un contexte ou du code entre des tests RSpec.",
     "repo": "https://github.com/zaratan/rspec_in_context",
     "techs": ["Ruby", "RSpec"]
@@ -55,7 +55,7 @@
   },
   {
     "title": "Shotgun: Active Shotgun",
-    "description": "Hackathon: Transforme un site Shotgun en une DB support des queries à la ActiveRecord.",
+    "description": "Hackathon : Transforme un site Shotgun en une DB supportant des queries à la ActiveRecord.",
     "repo": "https://github.com/zaratan/active_shotgun",
     "techs": ["Ruby"]
   }
