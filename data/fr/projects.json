@@ -7,11 +7,11 @@
     "techs": ["NextJS", "TypeScript", "Scss"]
   },
   {
-    "title": "WOD : Pouvoirs vampiriques",
-    "description": "Une meilleure vision pour les disciplines vampiriques dans World of Darkness.",
-    "url": "https://vampire.zaratan.fr",
-    "repo": "https://github.com/zaratan/vampire",
-    "techs": ["Gastby", "StyledComponents"]
+    "title": "WOD : Codex",
+    "description": "Un codex pour rassembler les règles épapillées de World of Darkness.",
+    "url": "https://wod.zaratan.fr",
+    "repo": "https://github.com/zaratan/wod_codex",
+    "techs": ["NextJS", "TypeScript", "TailwindCSS"]
   },
   {
     "title": "WOD : Feuilles de personnages",

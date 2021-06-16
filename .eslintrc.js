@@ -8,6 +8,7 @@ module.exports = {
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
+    'plugin:@next/next/recommended',
   ],
   env: {
     browser: true,

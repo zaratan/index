@@ -7,11 +7,11 @@
     "techs": ["NextJS", "TypeScript", "Scss"]
   },
   {
-    "title": "WOD: Vampire's powers",
-    "description": "A better display for World of Darkness Vampire disciplines in french.",
-    "url": "https://vampire.zaratan.fr",
-    "repo": "https://github.com/zaratan/vampire",
-    "techs": ["Gastby", "StyledComponents"]
+    "title": "WOD: Codex",
+    "description": "A codex for scattered World of Darkness rules in french.",
+    "url": "https://wod.zaratan.fr",
+    "repo": "https://github.com/zaratan/wod_codex",
+    "techs": ["NextJS", "TypeScript", "TailwindCSS"]
   },
   {
     "title": "WOD: Character sheets",
