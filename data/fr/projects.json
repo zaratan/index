@@ -58,5 +58,11 @@
     "description": "Hackathon : Transforme un site Shotgun en une DB supportant des queries à la ActiveRecord.",
     "repo": "https://github.com/zaratan/active_shotgun",
     "techs": ["Ruby"]
+  },
+  {
+    "title": "This name does not exist",
+    "description": "Site web générant de faux noms depuis de grandes bases de noms et des chaines de Markov.",
+    "url": "https://thisnamedoesnotexist.com",
+    "techs": ["NextJS", "TailwindCSS", "TypeScript", "Rust", "WebAssembly"]
   }
 ]
